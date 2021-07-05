@@ -97,9 +97,9 @@ const VDOM = React.createElement('div',{},React.createElement('h1',{id:'title'},
 </html>
 ```
 
-首先需要引入 `babel` 插件，需要注意的是实际开发中不应该这么引入，因为这样浏览器会实时转换`JSX`代码，影响性能，我们这里只是为了演示 JSX 开发。
+首先需要引入 `babel` 插件，需要注意的是实际开发中不应该这么引入，因为这样浏览器会实时转换`JSX`代码，影响性能，速度慢，我这里只是为了演示 JSX 开发。
 
 然后需要在编写逻辑代码的 `script` 标签上加上 `type="text/babel">`，不指定类型的话，浏览器是无法转译 JSX 代码的。
 
-JSX 其实跟我们编写 Vue 中的 `template` 类似的，你可以理解为是在我们熟悉的 html 代码上做一些特有的定制化，就成了 JSX，个人觉得没有学习成本的负担。后面会单独介绍 JSX 相关知识。
+JSX 其实跟我们编写 Vue 中的 `template` 类似的，它虽然很像 html，但并不真是 html，它有自己的特性，后面会介绍 JSX 的一些特性。
 
